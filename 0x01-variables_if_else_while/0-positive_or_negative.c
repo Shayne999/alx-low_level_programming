@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* main - This function specifies whether a number is negative or positive */
+/**
+ *  main - This function specifies whether a number is negative or positive.
+ *  Return: 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -20,6 +23,7 @@ int main(void)
 	else
 	{
 		printf("%d is negative\n", n);
+	}
 
 	return (0);
 }
