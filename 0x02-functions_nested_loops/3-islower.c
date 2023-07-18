@@ -2,7 +2,7 @@
 
 /**
  *_islower - Function entry point.
- *param c - The character to be checked
+ *@c: The character in ASCII code
  *Return: 0 (Success)
  */
 
