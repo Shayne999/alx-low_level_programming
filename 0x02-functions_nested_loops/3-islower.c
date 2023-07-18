@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *_islowe - Function entry point.
+ *_islower - Function entry point.
+ *param c - The character to be checked
  *Return: 0 (Success)
  */
 
