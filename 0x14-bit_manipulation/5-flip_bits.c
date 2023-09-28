@@ -14,12 +14,12 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned long int num;
 	unsigned long int x = n ^ m;
 
-	for (i = 63; i >= 0; a--)
+	for (i = 63; i >= 0; i--)
 	{
-		num = x >> a;
-		if (current & 1)
+		num = x >> i;
+		if (num & 1)
 		{
-			count++
+			count++;
 		}
 	}
 	return (count);
